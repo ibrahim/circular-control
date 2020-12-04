@@ -9,11 +9,18 @@ body {
   position:relative;
 	width:200px;
 }
-button {
+a {
 	margin:20px;
 	height:30px;
+	display:flex;
+	text-align:center;
+	border:1px solid #ccc;
+	background-color:#F0F0F0;
+	align-items:center;
+	justify-content:center;
+	color:#000;
 }
-button:focus ~#control {
+a:focus ~#control {
   animation: bounce 0.4s infinite alternate;
 } 
 @keyframes bounce {
