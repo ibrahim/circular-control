@@ -13,7 +13,7 @@ button {
 	margin:20px;
 	height:30px;
 }
-button:active ~#control {
+button:focus ~#control {
   animation: bounce 0.4s infinite alternate;
 } 
 @keyframes bounce {
